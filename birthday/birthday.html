@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <style>
+            body{
+                font-family: Dancing Script;
+                text-align: center;
+                background: linear-gradient(#a2d2ff,#EFB0C9);
+                background-color: #a2d2ff;
+                color: #ffffff;
+            }
+
+            .landing{
+                text-shadow: 0 0 5px black;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            #prof{
+                width: 200px;
+                height: 200px;
+                overflow: hidden;
+                border-radius: 100%;
+                border: 5px solid #EFB0C9;
+            }
+
+
+            #age{
+                border-radius: 10px;
+                padding: 10px;
+                margin-top: 50px;
+                margin-bottom: 1px;
+                background-color: #EFB0C9;
+            }
+
+            #date{
+                border-radius: 10px;
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #EFB0C9;
+            }
+
+            .gift{
+                width: 600px;
+                height: 600px;
+                background-image: url(https://github.com/scrimba/learn-html-and-css/blob/main/5.%20Build%20a%20Birthday%20GIFt%20Site/10.%20Create%20the%20first%20gift/images/gift-cover.jpg?raw=true);
+                background-size: cover;
+                margin-left: auto;
+                margin-right: auto;
+                border: 5px solid #ffffff;
+                border-radius: 7px;
+            }
+
+            .gift:hover{
+                background-image: url(https://github.com/scrimba/learn-html-and-css/blob/main/5.%20Build%20a%20Birthday%20GIFt%20Site/13.%20Add%20the%20hover%20effect/images/happy.gif?raw=true);
+                cursor: pointer;
+            }
+
+            .gift2{
+                width: 600px;
+                height: 600px;
+                background-image: url(https://github.com/scrimba/learn-html-and-css/blob/main/5.%20Build%20a%20Birthday%20GIFt%20Site/10.%20Create%20the%20first%20gift/images/gift-cover.jpg?raw=true);
+                background-size: cover;
+                margin-left: auto;
+                margin-right: auto;
+                border: 5px solid #ffffff;
+                border-radius: 7px;
+            }
+
+            .gift2:hover{
+                background-image: url(https://github.com/scrimba/learn-html-and-css/blob/main/5.%20Build%20a%20Birthday%20GIFt%20Site/14.%20Create%20the%20next%20GIFt/images/hot.gif?raw=true);
+                cursor: pointer;
+            }
+
+            .second-gift{
+                margin: 50px;
+            }
+
+            .btn{
+                width: 600px;
+                height: 600px;
+                background-image: url(https://github.com/scrimba/learn-html-and-css/blob/main/5.%20Build%20a%20Birthday%20GIFt%20Site/10.%20Create%20the%20first%20gift/images/gift-cover.jpg?raw=true);
+                background-size: cover;
+                cursor: pointer;
+                border: 0;
+            }
+
+            .footer{
+                margin-top: 10px;
+                background-color: #a2d2ff;
+            }
+
+            h4{
+                margin: 0 0 5px 0;
+                padding-bottom: 2px;
+                padding-top: 2px;
+            }
+            
+        </style>
+    <title>Happy Birthday</title>
+</head>
+<body>
+    <div class="landing">
+        <h1>Today is Svetlana's Birthday🎉</h1>
+        <img id="prof" src="https://lh3.googleusercontent.com/jzd-nT1ShkrmyMCh9ehLR5WHAbMnz8G4J6rBYatdk8yu8DKpa008RAWPfYNZB9V41IppZRvwFidKkaVMEKE8I7qPdxZa_avkOj3Y7q0nNmfMerj8fUNCjWFW7jdgkBY_x08EXF-4mLmWo6hkoFHuu6N_s6TRUM-kgNRfAezDLfT_DPccXyWsjKa9WrB03Bcaxt7CxjLSTVAG98s2lY-RnhPOc68KRmdjf_TGYzHDswbjT7zG_MMVReB-HMbMYAQFk12JSPVR-91jIcEwL9H5kgSmAGU0J2Tp6v6sm4Fv2maLcIONaG4OUnp-mKfOLzwlIGZCDCaXr-fWmPU_gBFSf77Qfz3HvIc5dwOzpz1rxHlib9j5Yu5JkkslHaLnlcc5zuiy43gqNqDwxZ9_w695CVSlDG4L_YbT8G6UudfGto1MOqIHnX5TNxFsKZXHxBEiRjBMA1ADnERikEZcAos5LQdbed-QjxMVFpw-XPMmri2XdtMvoWcmQIXOjDbLsNTQNFyjrOR-luWk5OT8Ifl88K-ufMsEwG2uGJMEiw9URUIKNZICUtYO6uTsj8gBp5GPvdbGJPMq0NNJtuAsPJj60Mzn1bt2A5FKi-39NaWvyCtk5wPINQ4jcJYB2o4nME5FvGNPrPTQ64oL308qBNFD_I3szbfRSimJXaHqDpgxIfbOpl6eZJ1N1ovpAUcqPgft8YfLHxs6Hg1iA9sJjMMdbZc3cnPodxV3SKbaXQoyInkSq5AISDp8kBachZ9rF33uck4w6fljzeVHC2iL23lJxdJgwnnotf4gY-A=w730-h652-no?authuser=0" alt="">
+        <h2 id="age">18 years old</h3>
+        <h2 id="date">19.05.2022</h5>
+    </div>
+
+    <div class="first-gift">
+        <h1>Here's how much happy I'm for u today🥰</h1>
+        <h2>(Click on the gift)</h2>
+        <div class="gift">
+            <a href="https://github.com/scrimba/learn-html-and-css/blob/main/5.%20Build%20a%20Birthday%20GIFt%20Site/13.%20Add%20the%20hover%20effect/images/happy.gif?raw=true" target="_blank"><button class="btn"></button></a>
+        </div>
+    </div>
+
+    <div class="second-gift">
+        <h1>How people react when u enter the room😍</h1>
+        <div class="gift2">
+            <a href="https://github.com/scrimba/learn-html-and-css/blob/main/5.%20Build%20a%20Birthday%20GIFt%20Site/14.%20Create%20the%20next%20GIFt/images/hot.gif?raw=true" target="_blank"><button class="btn"></button></a>
+        </div>
+    </div>
+
+    <div class="third-gift">
+        <h1>If I had to describe u with TWO words👇</h1>
+        <div class="gift2">
+            <a href="https://media3.giphy.com/media/SE4kNYIoml8kYQgxrT/giphy.gif?cid=790b76111cc8058361c94bd610fb8442a77572b884eff237&rid=giphy.gif&ct=g " target="_blank"><button class="btn"></button></a>
+        </div>
+    </div>
+
+    <div class="last-gift">
+        <h1>This one's for you oniichaan🥂</h1>
+        <div class="gift2">
+            <a href="https://www.thebooksatchel.com/wp-content/uploads/2018/03/rainbirds1.jpg" target="_blank"><button class="btn"></button></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h4>Ily💕</h4>
+        <h4>&#169 ASH</h4>
+    </div>
+</body>
+</html>
